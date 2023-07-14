@@ -1,0 +1,41 @@
+body{
+    background: rgb(166, 8, 124);
+}
+
+#content
+{
+    background: green;
+    height: 300px;
+    width: 800px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 40px;
+    border: 10px solid black;
+}
+#game{
+    color: rgb(4, 186, 226);
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 70px;
+    
+}
+#head{
+    color: yellow;
+    text-shadow: 4px 4px 4px black;
+}
+#rule{
+    color: red;
+    text-shadow: 4px 4px 4px black;
+}
+#select
+{
+    color: rgb(1, 1, 162);
+    font-size: x-large;
+}
+#result
+{
+    padding-top: 18px;
+    font-size: large;
+    font-weight: bold;
+}

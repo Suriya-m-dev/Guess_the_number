@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <marquee direction="left" scrollamount="20"> <h1 id="game">! NUMBER GUESS GAME !</h1></marquee>
+    <div id="content">
+        <center>
+            <h1 id="head">Number Guess Application</h1>
+            <h2 id="rule">Rule:</h2>
+            <h3 id="select">Select a number between 1 to 100</h3>
+            <h3 id="guess">Guess a number <input type="text" id="guessfield"><br></h3>
+            <input type="submit" value="submit" id="submitbutton" onclick="guessNumber()">
+            <div id="result"><b> Wait for the Result..!</b></div>
+        </center>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
